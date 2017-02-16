@@ -10,3 +10,5 @@ Spasimir, Vasilev | vasile14
 Quoc Lam, Ta | taquoc
 
 Abdulla, Bin Haji | binhajia
+
+Al-Attiyat, Badr | attiyatb
