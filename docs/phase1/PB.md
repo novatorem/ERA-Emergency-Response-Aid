@@ -14,3 +14,14 @@ the project.
 satisfaction.
 
 • Each user story should include a priority and a point estimate (using the numerical scale stated above).
+
+• Point estimate is a qualitative estimate, made by the team members. You will need to use planning
+poker as in tutorial during week 7.
+
+• By now you should have received our invitations to the Pivotal Tracker. Please accept your invitation
+and record the stories on the tracker.
+
+• The recorded stories on the tracker must match the stories on your PB.md.
+
+• In case your team prefers to use a different tracking tool, please do invite your instructor and your
+TAs (emails available on syllabus). We need to chekc your progress throughout the project.
