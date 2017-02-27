@@ -1,0 +1,31 @@
+Framework
+Size: 5
+Priority: 1
+
+Database
+Size: 5
+Priority: 1
+
+User profile
+Size: 2
+Priority: 6
+
+Search feature
+Size: 2
+Priority: 4
+
+Local emergency centres
+Size: 3
+Priority: 2
+
+Bookmark (offline access)
+Size: 2
+Priority: 5
+
+Panic button
+Size: 8
+Priority: 2
+
+Fitbit support
+Size: 5
+Priority: 7
