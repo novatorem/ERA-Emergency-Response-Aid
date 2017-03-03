@@ -20,4 +20,4 @@ For example, and old professor dropped his glasses in lecture and is currently o
 
 -------------------
 
-Possible due to the fact that it wasn't what their app was designed to do. The feature was not a planned one, or they did not have enough time to implement it.
+Possibly due to the fact that it wasn't what their app was designed to do. The feature was not a planned one, or they did not have enough time to implement it.
