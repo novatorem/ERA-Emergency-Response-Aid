@@ -18,4 +18,6 @@ Hiking accident - prior to going hiking you find common accidents while hiking a
 Part 4: The Key Principles-
 Help the "disabled", help the non-"disabled", help everyone. The app is meant to be simple, easy to use/understand, allowing for ease of access by any and all for any and all situations.
 
-Monetize certain features.
+----------------
+
+Monetize certain features or Ad revenue?
