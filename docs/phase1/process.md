@@ -15,7 +15,7 @@ We need 3-5 rounds of voting
 Both in local groups and some online (facebook)
 
 #How frequently did you meet?
-Twice in person, once in tutorial, and semi-daily discussions online
+Twice in person, twice in tutorial, and semi-daily discussions online
 
 #What lessons should you take forward to the next phase
 Get people into groups and allow for streamlining
