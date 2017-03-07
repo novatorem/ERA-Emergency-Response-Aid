@@ -32,6 +32,14 @@ the inteface is easy to use
 ##Sprint Backlog
 
 
+| Task  | Priority | Size |
+| ------------- | ------------- | ------------- |
+| Create homepage  | 1  | 3 | 2 |
+| Create medical page  | 2  | 2 |
+| Create user page | 3 | 2 |
+| Introduce navigation system | 4 | 1 |
+| Test | 5 | 2 |
+
 ---------------------------------
 ##User Story for team 1
 
@@ -65,3 +73,11 @@ I can pull medical information
 --------------------------------
 
 ##Sprint backlog 
+
+| Task  | Priority | Size |
+| ------------- | ------------- | ------------- |
+| Create database  | 1  | 3 | 1 |
+| Create tables  | 2  | 1 |
+| Set up database manager | 3 | 3 |
+| Connect database to Android Studio | 4 | 3 |
+| Test | 5 | 1 |
