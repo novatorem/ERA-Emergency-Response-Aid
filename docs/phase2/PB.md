@@ -2,7 +2,7 @@
 Elderly
 
 ####I want
-to search for my symptons
+to search for my symptoms
 
 ####So that
 I can adminster a solution
