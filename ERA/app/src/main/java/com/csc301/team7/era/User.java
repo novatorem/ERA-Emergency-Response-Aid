@@ -35,6 +35,22 @@ public class User {
         this.medical_condition = medical_condition;
     }
 
+     /**
+     * Created Getter for first_name
+     * @return first_name
+     */
+    public String getFirst_name(){
+        return this.first_name;
+    }
+
+    /**
+     * Created Getter for last_name
+     * @return last_name
+     */
+    public String getLast_name(){
+        return this.last_name;
+    }
+    
     /**
      * Created a getter for password
      * @return password
