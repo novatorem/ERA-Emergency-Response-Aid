@@ -12,6 +12,9 @@ public class EmergencyIssues {
     private String response;
     private boolean validated;
 
+    public EmergencyIssues(){
+
+    }
     public EmergencyIssues(User user, String issue, String response){
         this.user_email = user.getEmail();
         this.issue = issue;
@@ -28,6 +31,12 @@ public class EmergencyIssues {
     }
 
     /**
+     * Setting ER issue
+     * @param issue
+     */
+    public void setIssue(String issue){this.issue = issue;}
+
+    /**
      * Created getter for user response
      * @return response
      */
@@ -35,9 +44,26 @@ public class EmergencyIssues {
         return this.response;
     }
 
+    /**
+     * Updating Emergency response for the issue
+     * @param response
+     */
+    public void setResponse(String response){this.response = response;}
+
+    /**
+     * Get associate user email with the emergency issue
+     * @return user_email
+     */
     public String getUser_email(){
         return this.user_email;
     }
+
+    /**
+     * Setting user email
+     * @param email
+     */
+    public void setUser_email(String email){this.user_email = email;}
+
     /**
      * Created setter to check the issue to validated by admin
      */
