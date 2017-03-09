@@ -68,22 +68,6 @@ public class User {
     }
 
     /**
-     * Created a setter for updating user address
-     * @param address
-     */
-    public void setAddress(String address){
-        this.address = address;
-    }
-
-    /**
-     * Created a getter for user address
-     * @return address
-     */
-    public String getAddress(){
-        return this.address;
-    }
-
-    /**
      * Created a setter for contacts
      * @param contact
      */
