@@ -12,7 +12,7 @@ public class User {
     private String email;
     private String password;
 
-    private String address;
+  
     private int contact_number;
     private int emergency_contact;
     private String medical_condition;
