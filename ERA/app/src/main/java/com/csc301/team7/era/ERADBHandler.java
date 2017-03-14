@@ -162,7 +162,7 @@ public class ERADBHandler extends SQLiteOpenHelper {
      * @param ei
      * @param user
      */
-    public void addERIssue(EmergencyIssues ei, User user){
+    public void addERIssue(EmergencyIssue ei, User user){
         if(ei.getValidated()) {
             ContentValues values = new ContentValues();
             values.put(COLUMN_USER_EMAIL, user.getEmail());
@@ -181,7 +181,7 @@ public class ERADBHandler extends SQLiteOpenHelper {
      * Updating Er response for an existing issue
      * @param ei
      */
-    public void updateErresponse(EmergencyIssues ei){
+    public void updateErresponse(EmergencyIssue ei){
         ContentValues values = new ContentValues();
         values.put(COLUMN_EMERGENCY_RESPONSE, ei.getResponse());
         String query = "eIssue=" + ei.getIssue();
@@ -194,14 +194,14 @@ public class ERADBHandler extends SQLiteOpenHelper {
      * @param issue
      * @return emergency issue
      */
-    public EmergencyIssues findEissue(String issue){
+    public EmergencyIssue findEissue(String issue){
         String query = "Select * FROM " + TABLE_ERISSUES + " WHERE " + COLUMN_EMERGENCY_ISSUE + " =  \"" + issue + "\"";
 
         SQLiteDatabase db = this.getWritableDatabase();
 
         Cursor cursor = db.rawQuery(query, null);
 
-        EmergencyIssues erissue = new EmergencyIssues();
+        EmergencyIssue erissue = new EmergencyIssue();
 
         if (cursor.moveToFirst()) {
             cursor.moveToFirst();
@@ -222,7 +222,7 @@ public class ERADBHandler extends SQLiteOpenHelper {
      * @param ei
      * @return
      */
-    public boolean deleteErissue(EmergencyIssues ei) {
+    public boolean deleteErissue(EmergencyIssue ei) {
 
         boolean result;
         String erissue = ei.getIssue();

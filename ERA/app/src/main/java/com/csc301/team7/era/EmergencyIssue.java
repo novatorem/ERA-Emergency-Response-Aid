@@ -5,17 +5,17 @@ package com.csc301.team7.era;
  * User submitted issues for emergency
  */
 
-public class EmergencyIssues {
+public class EmergencyIssue {
 
     private String user_email;
     private String issue;
     private String response;
     private boolean validated;
 
-    public EmergencyIssues(){
+    public EmergencyIssue(){
 
     }
-    public EmergencyIssues(User user, String issue, String response){
+    public EmergencyIssue(User user, String issue, String response){
         this.user_email = user.getEmail();
         this.issue = issue;
         this.response = response;

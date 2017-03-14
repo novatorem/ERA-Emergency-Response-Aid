@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ERA</string>
+    <string name="action_add_file"></string>
+    <string name="action_profile_settings">Profile Settings</string>
+    <string name="action_panic_settings">Panic Settings</string>
+    <string name="action_device_support">Supported Devices</string>
 </resources>
+
