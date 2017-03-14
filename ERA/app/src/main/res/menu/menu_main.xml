@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/action_panic_settings"
+        android:orderInCategory="1"
+        android:title="@string/action_panic_settings"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_profile_settings"
+        android:title="@string/action_profile_settings"
+        android:orderInCategory="2"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_device_support"
+        android:orderInCategory="3"
+        android:title="@string/action_device_support"
+        android:showAsAction="never" />
+</menu>
