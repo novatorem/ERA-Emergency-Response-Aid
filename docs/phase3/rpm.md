@@ -8,6 +8,7 @@ Topics talked on:
                   Fixing git files structure
                   Commit to new branch in order to sync up current files
                   Getting Badr up to date with pivotal tracker, android studio etc..
+                  Notify Prof Ilir on Lam's hospitalization
                   Meeting at 15/03/17 for 2:30pm
 
 Items under consideration for sprint 2
