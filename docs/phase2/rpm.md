@@ -15,7 +15,7 @@ Product Owner: Stories from backlog to consider
 
 Items under consideration for Sprint 1:
 Scrum Masters: Andrew and Spasimir
-Team Andrew: Creating UI/UX framework
-Team Spasimir: Setting up Database and API for searching emergency response.
+Team 2: Creating UI/UX framework
+Team 1: Setting up Database and API for searching emergency response.
 
 User story for User Interface added to user stories
