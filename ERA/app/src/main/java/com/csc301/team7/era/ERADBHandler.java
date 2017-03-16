@@ -20,6 +20,7 @@ public class ERADBHandler extends SQLiteOpenHelper {
     //Tables with in the database eradb.db
     private static final String TABLE_USERS = "appusers";
     private static final String TABLE_ERISSUES = "erissues";
+    private static final String TABLE_BOOKMARK = "bookmarks";
 
     //Columns for user table
     private static final String COLUMN_FIRST_NAME = "fName";
@@ -35,7 +36,10 @@ public class ERADBHandler extends SQLiteOpenHelper {
     private static final String COLUMN_EMERGENCY_ISSUE = "eIssue";
     private static final String COLUMN_EMERGENCY_RESPONSE = "eResponse";
 
-
+    //column for bookmark table
+    private static final String COLUMN_BOOKMARK_NAME = "bname";
+    private static final String COLUMN_BOOKMARK_ISSUE = "bissue";
+    private static final String COLUMN_BOOKMARK_SOLUTION = "bsolution";
 
 
     public ERADBHandler(Context context, String name,
@@ -59,6 +63,11 @@ public class ERADBHandler extends SQLiteOpenHelper {
                 + COLUMN_USER_EMAIL + " VARCHAR(50)," + COLUMN_EMERGENCY_ISSUE
                 + " TEXT PRIMARY KEY," + COLUMN_EMERGENCY_RESPONSE + " TEXT" + ")";
         db.execSQL(CREATE_EMERGENCY_ISSUE_TABLE);
+
+        String CREATE_BOOKMARK_TABLE = "CREATE TABLE" + TABLE_BOOKMARK + "(" +
+                COLUMN_BOOKMARK_NAME + "VARCHAR(50) PRIMARY KEY," + COLUMN_BOOKMARK_ISSUE + " TEXT,"
+                + COLUMN_BOOKMARK_SOLUTION + " TEXT" + ")";
+        db.execSQL(CREATE_BOOKMARK_TABLE);
     }
 
     @Override
@@ -66,6 +75,7 @@ public class ERADBHandler extends SQLiteOpenHelper {
         //for migration change it to migrate data to the new version
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_USERS);
         db.execSQL("DROP TABLE IF EXISTS" + TABLE_ERISSUES);
+        db.execSQL("DROP TABLE IF EXISTS" + TABLE_BOOKMARK);
         onCreate(db);
     }
 
@@ -162,7 +172,7 @@ public class ERADBHandler extends SQLiteOpenHelper {
      * @param ei
      * @param user
      */
-    public void addERIssue(EmergencyIssue ei, User user){
+    public void addERIssue(EmergencyIssues ei, User user){
         if(ei.getValidated()) {
             ContentValues values = new ContentValues();
             values.put(COLUMN_USER_EMAIL, user.getEmail());
@@ -181,7 +191,7 @@ public class ERADBHandler extends SQLiteOpenHelper {
      * Updating Er response for an existing issue
      * @param ei
      */
-    public void updateErresponse(EmergencyIssue ei){
+    public void updateErresponse(EmergencyIssues ei){
         ContentValues values = new ContentValues();
         values.put(COLUMN_EMERGENCY_RESPONSE, ei.getResponse());
         String query = "eIssue=" + ei.getIssue();
@@ -194,14 +204,14 @@ public class ERADBHandler extends SQLiteOpenHelper {
      * @param issue
      * @return emergency issue
      */
-    public EmergencyIssue findEissue(String issue){
+    public EmergencyIssues findEissue(String issue){
         String query = "Select * FROM " + TABLE_ERISSUES + " WHERE " + COLUMN_EMERGENCY_ISSUE + " =  \"" + issue + "\"";
 
         SQLiteDatabase db = this.getWritableDatabase();
 
         Cursor cursor = db.rawQuery(query, null);
 
-        EmergencyIssue erissue = new EmergencyIssue();
+        EmergencyIssues erissue = new EmergencyIssues();
 
         if (cursor.moveToFirst()) {
             cursor.moveToFirst();
@@ -222,7 +232,7 @@ public class ERADBHandler extends SQLiteOpenHelper {
      * @param ei
      * @return
      */
-    public boolean deleteErissue(EmergencyIssue ei) {
+    public boolean deleteErissue(EmergencyIssues ei) {
 
         boolean result;
         String erissue = ei.getIssue();
@@ -232,4 +242,33 @@ public class ERADBHandler extends SQLiteOpenHelper {
         return result;
     }
 
+    /**
+     * Insert new issue into bookmark table
+     * @param bmark
+     */
+    public void addBookmark(Bookmark bmark){
+        ContentValues values = new ContentValues();
+
+        values.put(COLUMN_BOOKMARK_NAME, bmark.getName());
+        values.put(COLUMN_BOOKMARK_ISSUE, bmark.getIssue());
+        values.put(COLUMN_BOOKMARK_ISSUE, bmark.getSolution());
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        db.insert(TABLE_BOOKMARK, null, values);
+        db.close();
+    }
+
+    /**
+     * Deleting an existing bookmark
+     * @param bmark
+     * @return
+     */
+    public boolean deleteBookmark(Bookmark bmark){
+        boolean result;
+        String bname = bmark.getName();
+        String query = COLUMN_BOOKMARK_NAME + "=" + bname;
+        SQLiteDatabase db = this.getWritableDatabase();
+        result = db.delete(TABLE_BOOKMARK, query, null) > 0;
+        return result;
+    }
 }
