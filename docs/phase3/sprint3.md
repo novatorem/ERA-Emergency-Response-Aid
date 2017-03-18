@@ -1,5 +1,5 @@
 #Participants
-Andrew, Teddy, Spasimir, Aun
+Andrew, Teddy, Spasimir, Aun, Dellis
 
 -----------------------
 ##User Story for Team 2
