@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_blue_light"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
     <ImageView
         android:id="@+id/logo"
-        android:src="@drawable/logo_200x200"
+        android:src="@drawable/medical"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
@@ -13,28 +24,28 @@
 
     <SearchView
         android:layout_width="match_parent"
-        android:layout_height="59dp" />
+        android:layout_height="59dp"
+        android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"/>
 
     <Button
-        android:id="@+id/NavigateButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:text="Medical database"
         android:onClick="gotoMedicalPage"
-        android:text="Medical database" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="Local Centers"/>
+        android:background="@android:color/holo_blue_light"/>
 
     <Button
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Panic Button" />
+        android:text="Local Centers"
+        android:background="@android:color/holo_blue_light"/>
+
+
 
 
 </LinearLayout>
