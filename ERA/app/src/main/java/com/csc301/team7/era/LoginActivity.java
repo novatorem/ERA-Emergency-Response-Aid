@@ -309,6 +309,35 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         protected Boolean doInBackground(Void... params) {
             // TODO: attempt authentication against a network service.
 
+            /*
+            try{
+            String username = mEmail;
+            String password = mPassword;
+            String link = "http://cslinux.utm.utoronto.ca/~aunmuham/login.php?username="+username+"& password="+password;
+
+            URL url = new URL(link);
+            HttpClient client = new DefaultHttpClient();
+            HttpGet request = new HttpGet();
+            request.setURI(new URI(link));
+            HttpResponse response = client.execute(request);
+            BufferedReader in = new BufferedReader(new
+               InputStreamReader(response.getEntity().getContent()));
+
+            StringBuffer sb = new StringBuffer("");
+            String line="";
+
+            while ((line = in.readLine()) != null) {
+               sb.append(line);
+               break;
+            }
+
+            in.close();
+            return sb.toString();
+         } catch(Exception e){
+            return new String("Exception: " + e.getMessage());
+         }
+             */
+
             try {
                 // Simulate network access.
                 Thread.sleep(2000);

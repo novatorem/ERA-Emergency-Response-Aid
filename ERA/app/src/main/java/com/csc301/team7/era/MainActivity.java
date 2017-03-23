@@ -9,12 +9,14 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String EXTRA_MESSAGE = "com.csc301.team7.era";
+    EditText simpleEditText;
+    Button btnSearch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,12 +36,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void searchMedical(View view){
-        Intent searchPage = new Intent(this, SearchActivity.class);
+
+        Intent searchPage = new Intent(MainActivity.this, SearchActivity.class);
         EditText simpleEditText = (EditText) findViewById(R.id.mSearch);
         String strValue = simpleEditText.getText().toString();
         Log.i("strValue", strValue);
-        searchPage.putExtra(EXTRA_MESSAGE, strValue);
+        searchPage.putExtra("TextBox", strValue);
         startActivity(searchPage);
+
     }
 
     @Override
