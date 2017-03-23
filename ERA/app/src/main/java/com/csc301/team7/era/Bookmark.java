@@ -9,10 +9,10 @@ public class Bookmark {
     private String issue;
     private String solution;
 
-    public Bookmark(){
+    public Bookmark() {
     }
 
-    public Bookmark(String name, String issue, String solution){
+    public Bookmark(String name, String issue, String solution) {
         this.name = name;
         this.issue = issue;
         this.solution = solution;

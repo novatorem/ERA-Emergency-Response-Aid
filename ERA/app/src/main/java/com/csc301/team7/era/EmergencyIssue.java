@@ -12,10 +12,11 @@ public class EmergencyIssue {
     private String response;
     private boolean validated;
 
-    public EmergencyIssue(){
+    public EmergencyIssue() {
 
     }
-    public EmergencyIssue(User user, String issue, String response){
+
+    public EmergencyIssue(User user, String issue, String response) {
         this.user_email = user.getEmail();
         this.issue = issue;
         this.response = response;
@@ -24,58 +25,71 @@ public class EmergencyIssue {
 
     /**
      * Create getter for user issue
+     *
      * @return issue
      */
-    public String getIssue(){
+    public String getIssue() {
         return this.issue;
     }
 
     /**
      * Setting ER issue
+     *
      * @param issue
      */
-    public void setIssue(String issue){this.issue = issue;}
+    public void setIssue(String issue) {
+        this.issue = issue;
+    }
 
     /**
      * Created getter for user response
+     *
      * @return response
      */
-    public String getResponse(){
+    public String getResponse() {
         return this.response;
     }
 
     /**
      * Updating Emergency response for the issue
+     *
      * @param response
      */
-    public void setResponse(String response){this.response = response;}
+    public void setResponse(String response) {
+        this.response = response;
+    }
 
     /**
      * Get associate user email with the emergency issue
+     *
      * @return user_email
      */
-    public String getUser_email(){
+    public String getUser_email() {
         return this.user_email;
     }
 
     /**
      * Setting user email
+     *
      * @param email
      */
-    public void setUser_email(String email){this.user_email = email;}
+    public void setUser_email(String email) {
+        this.user_email = email;
+    }
 
     /**
      * Created setter to check the issue to validated by admin
      */
-    public void setValidated(){
+    public void setValidated() {
         this.validated = true;
     }
 
     /**
      * Created getter for validate variable of the issue
+     *
      * @return validated
      */
-    public boolean getValidated(){
+    public boolean getValidated() {
         return this.validated;
     }
 }

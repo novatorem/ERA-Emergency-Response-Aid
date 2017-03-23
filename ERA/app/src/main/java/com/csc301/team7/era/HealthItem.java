@@ -1,12 +1,11 @@
 package com.csc301.team7.era;
 
-public class HealthItem
-{
-	/// <summary>
+public class HealthItem {
+    /// <summary>
     /// Item ID
     /// </summary>
     public int ID;
-    
+
     /// <summary>
     /// Item name
     /// </summary>

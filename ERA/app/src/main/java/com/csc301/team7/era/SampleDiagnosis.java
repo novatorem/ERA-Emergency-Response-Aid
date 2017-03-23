@@ -13,43 +13,42 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class SampleDiagnosis {
 
-	private static DiagnosisClient _diagnosisClient;
-	
-	public static void main(String[] args) {
-		
-		String authUrl = "";
-		String userName = "";
-		String password = "";
-		String language = "";
-		String healthUrl = "";
-		
-		Properties prop = new Properties();
-		InputStream input = null;
-		userName = "spasimir95@gmail.com";
-		password = "Gt45MzPb96ReCc27W";
-		authUrl = "https://sandbox-authservice.priaid.ch/login";
-		healthUrl = "https://sandbox-healthservice.priaid.ch";
-		language = "en-gb";	
-		
-		CheckRequiredArgs(userName, password, authUrl, healthUrl, language);
-		
-		try {
-			_diagnosisClient = new DiagnosisClient(userName, password, authUrl, language, healthUrl);
-			
-			simulate();
-			
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	
-	static void CheckRequiredArgs(String userName, String password, String authUrl, String healthUrl, String language)
-    {
-        if ( userName == null || userName.isEmpty())
+    private static DiagnosisClient _diagnosisClient;
+
+    public static void main(String[] args) {
+
+        String authUrl = "";
+        String userName = "";
+        String password = "";
+        String language = "";
+        String healthUrl = "";
+
+        Properties prop = new Properties();
+        InputStream input = null;
+        userName = "spasimir95@gmail.com";
+        password = "Gt45MzPb96ReCc27W";
+        authUrl = "https://sandbox-authservice.priaid.ch/login";
+        healthUrl = "https://sandbox-healthservice.priaid.ch";
+        language = "en-gb";
+
+        CheckRequiredArgs(userName, password, authUrl, healthUrl, language);
+
+        try {
+            _diagnosisClient = new DiagnosisClient(userName, password, authUrl, language, healthUrl);
+
+            simulate();
+
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
+    static void CheckRequiredArgs(String userName, String password, String authUrl, String healthUrl, String language) {
+        if (userName == null || userName.isEmpty())
             throw new IllegalArgumentException("username in config.properties is required");
 
-        if ( password == null || password.isEmpty())
+        if (password == null || password.isEmpty())
             throw new IllegalArgumentException("password in config.properties is required");
 
         if (authUrl == null || authUrl.isEmpty())
@@ -61,21 +60,18 @@ public class SampleDiagnosis {
         if (language == null || language.isEmpty())
             throw new IllegalArgumentException("language in config.properties is required");
     }
-	
-	static int GetRandom(int maxNumber)
-    {
-        return ThreadLocalRandom.current().nextInt(0, maxNumber); 
+
+    static int GetRandom(int maxNumber) {
+        return ThreadLocalRandom.current().nextInt(0, maxNumber);
     }
-	
-	static void writeHeaderMessage(String message)
-    {
+
+    static void writeHeaderMessage(String message) {
         System.out.println("---------------------------------------------");
         System.out.println(message);
         System.out.println("---------------------------------------------");
     }
-	
-	static int loadBodySublocations(int locId) throws Exception
-    {
+
+    static int loadBodySublocations(int locId) throws Exception {
         List<HealthItem> bodySublocations = _diagnosisClient.loadBodySubLocations(locId);
 
         if (bodySublocations == null || bodySublocations.size() == 0)
@@ -91,8 +87,8 @@ public class SampleDiagnosis {
 
         return randomLocation.ID;
     }
-	
-	static Integer loadBodyLocations() throws Exception{
+
+    static Integer loadBodyLocations() throws Exception {
         List<HealthItem> bodyLocations = _diagnosisClient.loadBodyLocations();
 
         if (bodyLocations == null || bodyLocations.size() == 0)
@@ -110,13 +106,11 @@ public class SampleDiagnosis {
 
         return randomLocation.ID;
     }
-	
-	static List<HealthSymptomSelector> LoadSublocationSymptoms(int subLocId) throws Exception
-    {
+
+    static List<HealthSymptomSelector> LoadSublocationSymptoms(int subLocId) throws Exception {
         List<HealthSymptomSelector> symptoms = _diagnosisClient.loadSublocationSymptoms(subLocId, SelectorStatus.Man);
 
-        if (symptoms == null || symptoms.size() == 0)
-        {
+        if (symptoms == null || symptoms.size() == 0) {
             System.out.println("Empty body sublocations symptoms results");
             return null;
         }
@@ -142,50 +136,46 @@ public class SampleDiagnosis {
         return selectedSymptoms;
     }
 
-    static List<Integer> LoadDiagnosis(List<HealthSymptomSelector> selectedSymptoms) throws Exception
-    {
-    	writeHeaderMessage("Diagnosis");
-    	
-    	List<Integer> selectedSymptomsIds = new ArrayList<Integer>();
-    	for(HealthSymptomSelector symptom : selectedSymptoms){
-    		selectedSymptomsIds.add(symptom.ID);
-    	}
-    	
+    static List<Integer> LoadDiagnosis(List<HealthSymptomSelector> selectedSymptoms) throws Exception {
+        writeHeaderMessage("Diagnosis");
+
+        List<Integer> selectedSymptomsIds = new ArrayList<Integer>();
+        for (HealthSymptomSelector symptom : selectedSymptoms) {
+            selectedSymptomsIds.add(symptom.ID);
+        }
+
         List<HealthDiagnosis> diagnosis = _diagnosisClient.loadDiagnosis(selectedSymptomsIds, Gender.Male, 1988);
 
-        if (diagnosis == null || diagnosis.size() == 0)
-        {
-        	writeHeaderMessage("No diagnosis results for symptom " + selectedSymptoms.get(0).Name);
+        if (diagnosis == null || diagnosis.size() == 0) {
+            writeHeaderMessage("No diagnosis results for symptom " + selectedSymptoms.get(0).Name);
             return null;
         }
 
-        for (HealthDiagnosis d : diagnosis){
-        	String specialistions = "";
-        	for(MatchedSpecialisation spec : d.Specialisation)
-        		specialistions = specialistions.concat(spec.Name + ", ");
+        for (HealthDiagnosis d : diagnosis) {
+            String specialistions = "";
+            for (MatchedSpecialisation spec : d.Specialisation)
+                specialistions = specialistions.concat(spec.Name + ", ");
             System.out.println(d.Issue.Name + " - " + d.Issue.Accuracy + "% \nSpecialisations : " + specialistions);
         }
 
         List<Integer> retValue = new ArrayList<Integer>();
-        for(HealthDiagnosis diagnose : diagnosis)
-        	retValue.add(diagnose.Issue.ID);
+        for (HealthDiagnosis diagnose : diagnosis)
+            retValue.add(diagnose.Issue.ID);
         return retValue;
     }
-    
-    
-    static void LoadSpecialisations(List<HealthSymptomSelector> selectedSymptoms) throws Exception
-    {
-    	writeHeaderMessage("Specialisations");
 
-    	List<Integer> selectedSymptomsIds = new ArrayList<Integer>();
-    	for(HealthSymptomSelector symptom : selectedSymptoms){
-    		selectedSymptomsIds.add(symptom.ID);
-    	}
-    	
+
+    static void LoadSpecialisations(List<HealthSymptomSelector> selectedSymptoms) throws Exception {
+        writeHeaderMessage("Specialisations");
+
+        List<Integer> selectedSymptomsIds = new ArrayList<Integer>();
+        for (HealthSymptomSelector symptom : selectedSymptoms) {
+            selectedSymptomsIds.add(symptom.ID);
+        }
+
         List<DiagnosedIssue> specialisations = _diagnosisClient.loadSpecialisations(selectedSymptomsIds, Gender.Male, 1988);
 
-        if (specialisations == null || specialisations.size() == 0)
-        {
+        if (specialisations == null || specialisations.size() == 0) {
             writeHeaderMessage("No specialisations for symptom " + selectedSymptoms.get(0).Name);
             return;
         }
@@ -194,81 +184,77 @@ public class SampleDiagnosis {
             System.out.println(s.Name + " - " + s.Accuracy + "%");
     }
 
-    
-    static void LoadRedFlag(HealthSymptomSelector selectedSymptom) throws Exception
-    {
+
+    static void LoadRedFlag(HealthSymptomSelector selectedSymptom) throws Exception {
         String redFlag = "Symptom " + selectedSymptom.Name + " has no red flag";
-        
-        if(selectedSymptom.HasRedFlag)
+
+        if (selectedSymptom.HasRedFlag)
             redFlag = _diagnosisClient.loadRedFlag(selectedSymptom.ID);
 
         writeHeaderMessage(redFlag);
     }
 
-    static void LoadIssueInfo(int issueId) throws Exception
-    {
+    static void LoadIssueInfo(int issueId) throws Exception {
         HealthIssueInfo issueInfo = _diagnosisClient.loadIssueInfo(issueId);
         writeHeaderMessage("Issue info");
         System.out.println("Name: " + issueInfo.Name);
-        System.out.println("Professional Name: " +issueInfo.ProfName );
+        System.out.println("Professional Name: " + issueInfo.ProfName);
         System.out.println("Synonyms: " + issueInfo.Synonyms);
-        System.out.println("Short Description: " + issueInfo.DescriptionShort );
+        System.out.println("Short Description: " + issueInfo.DescriptionShort);
         System.out.println("Description: " + issueInfo.Description);
         System.out.println("Medical Condition: " + issueInfo.MedicalCondition);
-        System.out.println("Treatment Description: " +issueInfo.TreatmentDescription );
+        System.out.println("Treatment Description: " + issueInfo.TreatmentDescription);
         System.out.println("Possible symptoms: " + issueInfo.PossibleSymptoms + "\n");
     }
 
-    static void LoadProposedSymptoms(List<HealthSymptomSelector> selectedSymptoms) throws Exception
-    {
-    	List<Integer> selectedSymptomsIds = new ArrayList<Integer>();
-    	for(HealthSymptomSelector symptom : selectedSymptoms){
-    		selectedSymptomsIds.add(symptom.ID);
-    	}
+    static void LoadProposedSymptoms(List<HealthSymptomSelector> selectedSymptoms) throws Exception {
+        List<Integer> selectedSymptomsIds = new ArrayList<Integer>();
+        for (HealthSymptomSelector symptom : selectedSymptoms) {
+            selectedSymptomsIds.add(symptom.ID);
+        }
         List<HealthItem> proposedSymptoms = _diagnosisClient.loadProposedSymptoms(selectedSymptomsIds, Gender.Male, 1988);
 
-        if (proposedSymptoms == null || proposedSymptoms.size() == 0)
-        {
-        	writeHeaderMessage("No proposed symptoms for selected symptom " + selectedSymptoms.get(0).Name);
+        if (proposedSymptoms == null || proposedSymptoms.size() == 0) {
+            writeHeaderMessage("No proposed symptoms for selected symptom " + selectedSymptoms.get(0).Name);
             return;
         }
 
         String proposed = "";
-        for(HealthItem diagnose : proposedSymptoms)
-        	proposed = proposed.concat(diagnose.Name) + ", ";
-        
+        for (HealthItem diagnose : proposedSymptoms)
+            proposed = proposed.concat(diagnose.Name) + ", ";
+
         writeHeaderMessage("Proposed symptoms: " + proposed);
     }
-    
-	static void simulate(){
 
-		try {
-	        // Load body locations
-			int selectedLocationID = loadBodyLocations();
-			
-		
-		    // Load body sublocations
-		    int selectedSublocationID = loadBodySublocations(selectedLocationID);
-		
-		    // Load body sublocations symptoms
-		    List<HealthSymptomSelector> selectedSymptoms = LoadSublocationSymptoms(selectedSublocationID);
-		
-		    // Load diagnosis
-		    List<Integer> diagnosis = LoadDiagnosis(selectedSymptoms);
-		    
-		    // Load specialisations
-		    LoadSpecialisations(selectedSymptoms);
-		
-		    // Load issue info
-		    for (Integer issueId : diagnosis)
-		        LoadIssueInfo(issueId);
-		
-		    // Load proposed symptoms
-		    LoadProposedSymptoms(selectedSymptoms);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+    static void simulate() {
+
+        try {
+            // Load body locations
+            int selectedLocationID = loadBodyLocations();
+
+
+            // Load body sublocations
+            int selectedSublocationID = loadBodySublocations(selectedLocationID);
+
+            // Load body sublocations symptoms
+            List<HealthSymptomSelector> selectedSymptoms = LoadSublocationSymptoms(selectedSublocationID);
+
+            // Load diagnosis
+            List<Integer> diagnosis = LoadDiagnosis(selectedSymptoms);
+
+            // Load specialisations
+            LoadSpecialisations(selectedSymptoms);
+
+            // Load issue info
+            for (Integer issueId : diagnosis)
+                LoadIssueInfo(issueId);
+
+            // Load proposed symptoms
+            LoadProposedSymptoms(selectedSymptoms);
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
 
 }
