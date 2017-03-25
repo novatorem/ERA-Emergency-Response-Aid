@@ -13,3 +13,12 @@ Items under consideration for sprint 3:
     Complete navigation bar and user interface - Andrew
     Interactive body image. - Dellis
     Panic Button & Location tracking - Emmanuel
+
+Bad Practices:
+    Some people were unable to work on their part due to dependancies on the other.
+    Using different libraries and dependances caused code to only work locally.
+    
+Good Practices:
+    Everyone was able to complete their work when divided and independant.
+    Integrating back end into front end using java and xml files was well executed by Aun.
+    
