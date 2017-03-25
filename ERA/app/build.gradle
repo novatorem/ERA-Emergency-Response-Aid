@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 dependencies {
+
     compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
@@ -28,7 +29,7 @@ dependencies {
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
-    useLibrary 'org.apache.http.legacy'
+
     defaultConfig {
         applicationId "com.csc301.team7.era"
         minSdkVersion 15
@@ -57,6 +58,9 @@ android {
         exclude 'META-INF/LGPL2.1'
     }
 }
+
+
+
 
 
 

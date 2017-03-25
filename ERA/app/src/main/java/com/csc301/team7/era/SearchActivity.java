@@ -61,9 +61,19 @@ public class SearchActivity extends Activity {
         //testing the text view by placing user input as output
 
         simpleTextView = (TextView)findViewById(R.id.mResult);
-        //simpleTextView.setText(message);
 
-
+        if(message.equals("headache")){
+            String symptoms = "You could possibly have a simple migraine or a concussion . \n Immediately consult your doctor";
+            simpleTextView.setText(symptoms);
+        }
+        else if(message.equals("stomache")){
+            String symptoms = "You could possibly have a stomach flu. \n Consult your doctor and advise him of what you eat last.";
+            simpleTextView.setText(symptoms);
+        }
+        else{
+            simpleTextView.setText(message);
+        }
+        /*
         CheckRequiredArgs(userName, password, authUrl, healthUrl, language);
         try {
             _diagnosisClient = new DiagnosisClient(userName, password, authUrl, language, healthUrl);
@@ -73,7 +83,7 @@ public class SearchActivity extends Activity {
 
 
             simulate();
-
+        */
 
     }
 

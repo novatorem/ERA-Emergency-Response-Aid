@@ -18,6 +18,8 @@ import org.apache.http.impl.client.HttpClients;
 
 import Decoder.BASE64Encoder;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -41,7 +43,7 @@ public class DiagnosisClient {
 
         HandleRequiredArguments(userName, password, authServiceUrl, language, healthServiceUrl);
 
-        httpclient = HttpClients.createDefault();
+        //httpclient = HttpClients.createDefault();
 
         this.healthServiceUrl = healthServiceUrl;
         this.language = language;
