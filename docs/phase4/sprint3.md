@@ -40,7 +40,25 @@ out in the jungle
 #### Then
 tell me where to go
 
+------------------
 
+#### As a
+Technologically inept user
+
+#### I want
+to be able to click body parts
+
+#### So that
+I can show where I have my ailments
+
+#### Given
+having a pain in my torso
+
+#### When
+when I click the torso button
+
+#### Then
+tell me what could cause the pain
 
 --------------------------------
 
@@ -48,6 +66,8 @@ tell me where to go
 
 | Task  | Priority | Size |
 | ------------- | ------------- | ------------- |
-| Allow medical information to be pulled from apimedic  | 1  | 3 |
-| Adding table for bookmarked issues  | 2  | 2 |
-| Create Bookmark class | 2 | 2 |
+| Create a body diagram with clickable parts  | 4  | 3 |
+| Integrate User Search Capabilities with APIMEDIC  | 3  | 3 |
+| Implement Location Tracking and parsing | 2 | 3 |
+| Updating SQLite Database | 1 | 2 |
+| Overhaul of User and EmergencyIssue Class | 1 | 2 |
