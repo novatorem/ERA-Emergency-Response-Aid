@@ -1,6 +1,9 @@
 # Participants
 Andrew, Teddy, Spasimir, Aun, Dellis
 
+# Date
+Monday - 2:00pm
+
 -----------------------
 #### As an
 Elderly
