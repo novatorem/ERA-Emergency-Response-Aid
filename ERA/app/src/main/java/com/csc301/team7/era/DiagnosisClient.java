@@ -147,41 +147,8 @@ public class DiagnosisClient extends Application{
             }
         };
         queue.add(postRequest);
-        /*Log.d("tokenssss","asasa");
-        token = accessToken;
-        Log.d("token",token.Token);*/
 
-        /*HttpPost httpPost = new HttpPost(url);
-        httpPost.setHeader("Authorization", "Bearer " + username + ":" + computedHashString);
-
-        try {
-            CloseableHttpResponse response = httpclient.execute(httpPost);
-
-            ObjectMapper objectMapper = new ObjectMapper();
-            if (response.getStatusLine().getStatusCode() != HttpStatus.SC_OK) {
-                RetrieveException(response, objectMapper);
-            }
-            AccessToken accessToken = objectMapper.readValue(response.getEntity().getContent(), AccessToken.class);
-            token = accessToken;
-        } catch (ClientProtocolException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-            throw new Exception("Can not create token (ClientProtocolException)");
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-            throw new Exception("Can not create token (IOException)");
-        }*/
     }
-
-/*
-    private void RetrieveException(CloseableHttpResponse response, ObjectMapper objectMapper) throws Exception {
-
-        String errorMessage = objectMapper.readValue(response.getEntity().getContent(), String.class);
-        System.out.println("Resposne with status code: " + response.getStatusLine().getStatusCode() + ", error message: " + errorMessage);
-        throw new Exception(errorMessage);
-    }*/
-
 
     private void HandleRequiredArguments(String username, String password, String authServiceUrl, String language, String healthServiceUrl) {
         if (username == null || username.isEmpty())
@@ -241,31 +208,7 @@ public class DiagnosisClient extends Application{
                 }
         );
         queue.add(getRequest);
-        /*Log.d("asasa", "never3");
-        ObjectMapper objectMapper = new ObjectMapper();
-        Log.d("asasa", "never2");
-        T resultsObject = objectMapper.readValue(aa, valueTypeRef);
-        Log.d("asasa + aaa ", aa);
-        return resultsObject;*/
-/*
-        HttpGet httpGet = new HttpGet(url);
-        CloseableHttpResponse response;
-        try {
-            response = httpclient.execute(httpGet);
-            ObjectMapper objectMapper = new ObjectMapper();
-            if (response.getStatusLine().getStatusCode() != HttpStatus.SC_OK) {
-                RetrieveException(response, objectMapper);
-            }
 
-            T resultsObject = objectMapper.readValue(response.getEntity().getContent(), valueTypeRef);
-            return resultsObject;
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-            System.out.println("asdasdasdasdasd");
-            throw new Exception("Fail communication with web-service");
-        }
-        */
     }
 
     /// <summary>

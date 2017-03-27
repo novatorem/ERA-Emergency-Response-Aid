@@ -16,7 +16,9 @@ import android.widget.TextView;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.IOException;
 import java.util.List;
 
 
@@ -54,14 +56,20 @@ public class MainActivity extends AppCompatActivity {
         EditText simpleEditText = (EditText) findViewById(R.id.mSearch);
         String strValue = simpleEditText.getText().toString();
         int ff = 0;
-        try{
+        try{ //this is how you do stuff with the api
             aa._diagnosisClient.loadFromWebService("body/locations", new TypeReference<List<HealthItem>>() {
             },new DiagnosisClient.VolleyCallback() {
                 @Override
                 public void onSuccess(String response) {
-                    searchPage.putExtra("TextBox", response);
-                    startActivity(searchPage);
-
+                    ObjectMapper objectMapper = new ObjectMapper();
+                    try {
+                        List <HealthItem> resultsObject = objectMapper.readValue(response, new TypeReference<List<HealthItem>>(){});
+                        searchPage.putExtra("TextBox", resultsObject.get(0).Name);
+                        startActivity(searchPage);
+                    }
+                    catch(IOException e){
+                        Log.d("how dare u","aas");
+                    }
                 }
             });
         }

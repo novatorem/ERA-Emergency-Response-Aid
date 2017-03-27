@@ -20,8 +20,6 @@ import org.json.JSONObject;
 
 public class RegisterActivity extends AppCompatActivity {
 
-
-
     private RadioButton radioGender;
 
     @Override
