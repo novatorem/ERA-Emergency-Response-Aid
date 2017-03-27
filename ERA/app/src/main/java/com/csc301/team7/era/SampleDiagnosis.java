@@ -34,7 +34,7 @@ public class SampleDiagnosis {
         CheckRequiredArgs(userName, password, authUrl, healthUrl, language);
 
         try {
-            _diagnosisClient = new DiagnosisClient(userName, password, authUrl, language, healthUrl);
+            //_diagnosisClient = new DiagnosisClient(userName, password, authUrl, language, healthUrl, queue);
 
             simulate();
 

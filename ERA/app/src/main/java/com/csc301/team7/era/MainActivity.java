@@ -13,11 +13,19 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
+import com.fasterxml.jackson.core.type.TypeReference;
+
+import java.util.List;
+
 
 public class MainActivity extends AppCompatActivity {
 
     EditText simpleEditText;
     Button btnSearch;
+    RequestQueue queue;
+    Diagnosis aa;
 
 
 
@@ -27,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
+        queue = Volley.newRequestQueue(this);
+        aa = new Diagnosis(queue);
         
 
     }
@@ -40,12 +50,39 @@ public class MainActivity extends AppCompatActivity {
 
     public void searchMedical(View view){
 
-        Intent searchPage = new Intent(MainActivity.this, SearchActivity.class);
+        final Intent searchPage = new Intent(MainActivity.this, SearchActivity.class);
         EditText simpleEditText = (EditText) findViewById(R.id.mSearch);
         String strValue = simpleEditText.getText().toString();
-        Log.i("strValue", strValue);
-        searchPage.putExtra("TextBox", strValue);
-        startActivity(searchPage);
+        int ff = 0;
+        try{
+            aa._diagnosisClient.loadFromWebService("body/locations", new TypeReference<List<HealthItem>>() {
+            },new DiagnosisClient.VolleyCallback() {
+                @Override
+                public void onSuccess(String response) {
+                    searchPage.putExtra("TextBox", response);
+                    startActivity(searchPage);
+
+                }
+            });
+        }
+        catch (Exception e){
+
+        }
+        /*
+
+        try{
+            Log.d("yoyoyo","die");
+            ff = aa.loadBodyLocations();
+
+        }catch (Exception e){
+            Log.d("yoyoyo","exceptin");
+        }
+        String value = "" + ff;*/
+
+
+        //Log.i("strValue", strValue);
+        //searchPage.putExtra("TextBox", value);
+       // startActivity(searchPage);
 
     }
 
