@@ -1,0 +1,7 @@
+#Tue Mar 28 14:01:09 EDT 2017
+base.0=/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_284ec91e66a40ea1ec186d2642fa5e47e915f8e6
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_515fa582d9cf88b62033dc9d29430d04fd020ef7/classes.dex
+base.1=/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_515fa582d9cf88b62033dc9d29430d04fd020ef7
+file.0=/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_284ec91e66a40ea1ec186d2642fa5e47e915f8e6/classes.dex

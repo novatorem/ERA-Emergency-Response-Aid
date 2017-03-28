@@ -1,0 +1,4 @@
+#Tue Mar 28 14:01:09 EDT 2017
+base.0=/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

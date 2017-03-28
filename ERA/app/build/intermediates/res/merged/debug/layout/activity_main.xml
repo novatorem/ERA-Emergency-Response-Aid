@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_blue_light"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/medical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:visibility="visible" />
+    <!-- Replacing Search view with edit text component of text view for better versatility over
+         user input
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:clickable="true"
+        android:queryHint="Medical Issues"
+        android:iconifiedByDefault="false"
+        android:voiceSearchMode="showVoiceSearchButton|launchRecognizer" />
+    -->
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/mSearch"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Search Medical Issues"
+        android:onClick="searchMedical"
+        android:background="@android:color/holo_blue_light"/>
+
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Medical database"
+        android:onClick="gotoMedicalPage"
+        android:background="@android:color/holo_blue_light"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Local Centers"
+        android:onClick="gotoLocationPage"
+        android:background="@android:color/holo_blue_light"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Panic Button"
+        android:background="@android:color/holo_red_dark"/>
+
+</LinearLayout>
