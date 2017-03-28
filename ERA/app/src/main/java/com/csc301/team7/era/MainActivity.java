@@ -1,5 +1,6 @@
 package com.csc301.team7.era;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,8 +23,9 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
 
     EditText simpleEditText;
     Button btnSearch;
@@ -63,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
         Intent abc = new Intent(MainActivity.this,BodyLocation.class);
         startActivity(abc);
     }
+    public void gotoLocationPage(View view) {
+        Intent locationPage = new Intent(MainActivity.this, LocationPage.class);
+        startActivity(locationPage);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -70,4 +76,5 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu_main, menu); //your file name
         return super.onCreateOptionsMenu(menu);
     }
+
 }

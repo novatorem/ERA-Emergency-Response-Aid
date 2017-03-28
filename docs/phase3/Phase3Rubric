@@ -1,0 +1,148 @@
+Team Name:
+
+Team7
+
+
+Planning Meetings (SR1.md, sprint2.md) (Max 5 marks)
+-SR1.md (Sprint Retrospective)
+ [2 marks=Meeting is documented, participants are recorded, everyone has participated, analysis of good practices/bad practices wad made.]
+ [1 mark=Meeting is documented, participants are not recorded or the majority has not participated, not enough analysis has been done]
+ [0 marks=No meeting document submitted or the submitted document contains no relevant information]
+  =======
+  Your mark:0
+  =======
+-Sprint Planning meeting (sprint2.md)
+
+ [3 marks=Meeting is documented, participants are recorded, everyone has participated, Sprint goals are specified and
+  there is sufficient references to user stories to be completed during the sprint]
+ [2 marks=Meeting is documented, participants are not recorded or at least one member has not participated, sprint goals are somewhat specified and
+  there is some references to user stories to be completed during the sprint]
+ [1 mark=Meeting is documented, participants are not recorded or the majority has not participated, sprint goals are unclear
+  or the references to user stories to be completed during the sprint are missing or incomplete]
+ [0 marks=No meeting document submitted or the submitted document contains no relevant information]
+  
+  =======
+  Your mark:3
+  =======
+	
+User Stories (PB.md, sprint2.md) (Max 10 marks) 
+-Correctly formulated user stories 
+ [2 marks=all stories in PB.md follow the User Story template]
+ [1 mark=two or more stories in PB.md do not follow the template]
+ [0 marks=the majority of the stories in PB.md do not follow the template or no stories at all]
+ =========
+ Your mark: 1
+ =========
+ 
+ 
+-Recorded on Pivotal Tracer
+ [2 marks=all new stories added at sprint2 planning meeting in PB.md recorded on the Tracker]
+ [1 mark=two or more stories in PB.md not recorded on the tracker]
+ [0 marks=the majority of the stories in PB.md not recorded on the tracker or no stories record in the Tracker]
+ 
+  =======
+  Your mark:2
+  =======
+ 
+-Broken down into tasks 
+ [2 marks=all Sprint2.md stories broken down into tasks]
+ [1 mark=one or more Sprint2.md stories not recorded on the tracker]
+ [0 marks=the majority of the Sprint2.md stories not recorded on the tracker]
+ 
+  =======
+  Your mark:2
+  =======
+  
+-Estimated
+ [2 marks=all stories in PB.md are point estimated and the point value is recorded in the Tracker]
+ [1 mark=two or more stories in PB.md are not point estimated or the point value is not recorded in the Tracker]
+ [0 marks=the majority of the stories in PB.md are not point estimated or the point value is not recorded in the Tracker]
+ 
+  =======
+  Your mark:1
+  =======
+  
+-Prioritized	
+ [2 marks=all stories in PB.md are prioritized and the order of priority in PB.md matches the order of priority on the Tracker]
+ [1 mark=two or more stories in PB.md appear to be not in the same order of priority compared to the priority on the Tracker]
+ [0 marks=the majority of the stories in PB.md appear to be not in the same order of priority compared to the priority on the Tracker]
+ 
+  =======
+  Your mark:1
+  =======
+ 
+Tracking on Pivotal Tracker:  (max 10 marks) 
+- Are all your stories present on sprint2.md recorded  on the tracker? 
+  [0=no stories on PT]
+  [1=part of the stories missing]
+  [2=all stories recorded]
+  
+  =======
+  Your mark:2
+  =======
+  
+- Did you start all stories for sprint two? 
+  [0=no story started]
+  [1=part of the stories not started and explanation why not provided]
+  [2=all stories started or some stories not started, but logical explanation provided in the sprint2.md document]
+  
+  =======
+  Your mark:2
+  =======
+  
+- Do the commits on github match the tasks listed in sprint1.md? 
+  [0=no tasks or tasks do not match at all]
+  [1=two or more tasks are missing]
+  [2=no tasks are missing]
+  
+  =======
+  Your mark:2
+  =======
+  
+- Is the commit done by the person to whom the task has been assigned to? 
+  [0=no task was completed by anyone]
+  [1=two or more tasks were not completed as assigned]
+  [2=all assignned tasks are completed]
+  
+  =======
+  Your mark:2
+  =======
+  
+- Tasks Distribution
+  [0=most of team members have no tasks assigned and/or completed]
+  [1=at least one team member did not complete any task or did not have any task assigned]
+  [2=every team member had at least one task assigned and completed]
+  
+  =======
+  Your mark:2
+  =======
+
+System Design - (PDF or MD file or other suitable format) (Max 5 marks) 
+- Cover Page and Table of Contents 
+  [2 marks: both are present]
+  [1 mark: at least one is present]
+  [0 marks: None present]
+  
+  =======
+  Your mark:2
+  =======
+  
+- Design Updates
+  [3 marks: Clear Evidence that the system design has been reviewed, relevant changes have been made, and CRC model changes indicate improvement]
+  [2 marks: There is evidence the system design has been reviewed, relevant changes have been made, but CRC model has not improved]
+  [1 mark: There is a documented tentative to review the system design but no action has been taken or no conclusion has been drawn]
+  [0 marks: No evidence that the system design has been reviewed]
+  
+  =======
+  Your mark:2
+  =======
+  
+-Class Demo: [10 marks, see other rubric]
+ =======
+ Your mark:8  
+ ======= 
+ 
+ 
+ Total mark:32 /40
+
+  
