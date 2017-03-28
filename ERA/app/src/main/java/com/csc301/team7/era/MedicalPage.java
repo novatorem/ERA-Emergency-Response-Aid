@@ -24,9 +24,4 @@ public class MedicalPage extends AppCompatActivity {
         inflater.inflate(R.menu.menu_main, menu); //your file name
         return super.onCreateOptionsMenu(menu);
     }
-
-    public void gotoBodyLocationPage(View view) {
-        Intent medicalPage = new Intent(this, BodyLocation.class);
-        startActivity(medicalPage);
-    }
 }

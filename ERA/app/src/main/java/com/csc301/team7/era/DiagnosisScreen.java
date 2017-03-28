@@ -68,11 +68,9 @@ public class DiagnosisScreen extends AppCompatActivity {
                 c.setTextSize((float)20.0);
                 TextView d = new TextView(this);
                 String haha = "Specialisations: ";
-                //d.setText("Specialisations: ");
                 for (int j=0; j< resultsObject.get(i).Specialisation.size(); j++){
                     haha += resultsObject.get(i).Specialisation.get(j).Name + ", ";
                 }
-                //haha += "\n --------------------------------------";
                 d.setText(haha);
                 d.setTextSize((float)20.0);
                 d.setTextColor(Color.RED);
@@ -109,8 +107,6 @@ public class DiagnosisScreen extends AppCompatActivity {
                         Intent b = new Intent(DiagnosisScreen.this,MoreIssueInfo.class);
                         b.putExtra(EXTRA_MESSAGE,response);
                         startActivity(b);
-
-
                     }
                     catch(IOException e){
                         Log.d("how dare u","aas");

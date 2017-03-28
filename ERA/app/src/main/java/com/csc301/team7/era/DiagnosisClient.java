@@ -172,12 +172,8 @@ public class DiagnosisClient extends Application{
     }
 
     public void loadFromWebService(String action, final TypeReference<?> valueTypeRef, final VolleyCallback callback) throws Exception {
-        Log.d("asasas","sasasas");
         String extraArgs = "token=" + token.Token + "&format=json&language=" + this.language;
-        Log.d("asasas","we here fam  " + token.Token);
         String url = new StringBuilder(this.healthServiceUrl).append("/").append(action).append(action.contains("?") ? "&" : "?").append(extraArgs).toString();
-        Log.d("aasasa",url);
-
         StringRequest getRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>()
                 {
@@ -187,7 +183,6 @@ public class DiagnosisClient extends Application{
                         try {
                             //T resultsObject = objectMapper.readValue(aa.toString(), valueTypeRef);
                             setResponse(response);
-                            Log.d("the response is ", response.toString());
                             callback.onSuccess(response);
                         }catch(Exception e){
                             Log.d("asdasd","what the duck now");
@@ -298,11 +293,8 @@ public class DiagnosisClient extends Application{
                 aa = response;
             }
         });
-        Log.d("asasa", "never3");
         ObjectMapper objectMapper = new ObjectMapper();
-        Log.d("asasa", "never2");
         List <HealthDiagnosis> resultsObject = objectMapper.readValue(aa, new TypeReference<List<HealthItem>>(){});
-        Log.d("asasa + aaa ", aa);
         return resultsObject;
 
     }
@@ -329,11 +321,8 @@ public class DiagnosisClient extends Application{
                 aa = response;
             }
         });
-        Log.d("asasa", "never3");
         ObjectMapper objectMapper = new ObjectMapper();
-        Log.d("asasa", "never2");
         List <DiagnosedIssue> resultsObject = objectMapper.readValue(aa, new TypeReference<List<HealthItem>>(){});
-        Log.d("asasa + aaa ", aa);
         return resultsObject;
 
     }
@@ -351,22 +340,10 @@ public class DiagnosisClient extends Application{
             @Override
             public void onSuccess(String response) {
                 // do stuff here
-                aa = response;
-                Log.d("hi we made it", "hiw ww ");
-                Intent searchPage = new Intent(DiagnosisClient.this, SearchActivity.class);
-                Log.d("hi we made it", "hiw ww 2");
-                String value = "" + aa;
-                Log.d("hi we made it", "hiw ww 3");
-                searchPage.putExtra("TextBox", value);
-                Log.d("hi we made it", "hiw ww 4");
-                startActivity(searchPage);
             }
         });
-        Log.d("asasa", "never3");
         ObjectMapper objectMapper = new ObjectMapper();
-        Log.d("asasa", "never2");
         List <HealthItem> resultsObject = objectMapper.readValue("asas", new TypeReference<List<HealthItem>>(){});
-        //Log.d("asasa + aaa ", aa);
         return resultsObject;
 
     }
@@ -386,11 +363,8 @@ public class DiagnosisClient extends Application{
                 aa = response;
             }
         });
-        Log.d("asasa", "never3");
         ObjectMapper objectMapper = new ObjectMapper();
-        Log.d("asasa", "never2");
         List <HealthItem> resultsObject = objectMapper.readValue(aa, new TypeReference<List<HealthItem>>(){});
-        Log.d("asasa + aaa ", aa);
         return resultsObject;
     }
 
@@ -410,11 +384,8 @@ public class DiagnosisClient extends Application{
                 aa = response;
             }
         });
-        Log.d("asasa", "never3");
         ObjectMapper objectMapper = new ObjectMapper();
-        Log.d("asasa", "never2");
         List <HealthSymptomSelector> resultsObject = objectMapper.readValue(aa, new TypeReference<List<HealthItem>>(){});
-        Log.d("asasa + aaa ", aa);
         return resultsObject;
     }
 
@@ -440,11 +411,8 @@ public class DiagnosisClient extends Application{
                 aa = response;
             }
         });
-        Log.d("asasa", "never3");
         ObjectMapper objectMapper = new ObjectMapper();
-        Log.d("asasa", "never2");
         List <HealthItem> resultsObject = objectMapper.readValue(aa, new TypeReference<List<HealthItem>>(){});
-        Log.d("asasa + aaa ", aa);
         return resultsObject;
     }
 
@@ -463,11 +431,8 @@ public class DiagnosisClient extends Application{
                 aa = response;
             }
         });
-        Log.d("asasa", "never3");
         ObjectMapper objectMapper = new ObjectMapper();
-        Log.d("asasa", "never2");
         String resultsObject = objectMapper.readValue(aa, new TypeReference<List<HealthItem>>(){});
-        Log.d("asasa + aaa ", aa);
         return resultsObject;
     }
 }
