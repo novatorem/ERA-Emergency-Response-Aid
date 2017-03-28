@@ -21,11 +21,29 @@
         android:layout_height="0dp"
         android:layout_weight="2"
         android:visibility="visible" />
+    <!-- Replacing Search view with edit text component of text view for better versatility over
+         user input
 
     <SearchView
+        android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="59dp"
-        android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"/>
+        android:clickable="true"
+        android:queryHint="Medical Issues"
+        android:iconifiedByDefault="false"
+        android:voiceSearchMode="showVoiceSearchButton|launchRecognizer" />
+    -->
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/mSearch"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Search Medical Issues"
+        android:onClick="searchMedical"
+        android:background="@android:color/holo_blue_light"/>
+
 
     <Button
         style="@style/Widget.AppCompat.Button.Colored"
@@ -53,8 +71,5 @@
         android:layout_weight="1"
         android:text="Panic Button"
         android:background="@android:color/holo_red_dark"/>
-
-
-
 
 </LinearLayout>

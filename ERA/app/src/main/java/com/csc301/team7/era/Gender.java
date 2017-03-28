@@ -4,6 +4,6 @@ package com.csc301.team7.era;
 /// Person gender
 /// </summary>
 public enum Gender {
-	Male,
+    Male,
     Female
 }

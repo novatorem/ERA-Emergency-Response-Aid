@@ -3,13 +3,13 @@ package com.csc301.team7.era;
 import java.util.List;
 
 public class HealthSymptomSelector extends HealthItem {
-	
-	///<summary>
+
+    ///<summary>
     /// Professional name
     /// </summary>
-	public String ProfName;
-	
-	/// <summary>
+    public String ProfName;
+
+    /// <summary>
     /// Red flag indicator
     /// </summary>
     public Boolean HasRedFlag;
