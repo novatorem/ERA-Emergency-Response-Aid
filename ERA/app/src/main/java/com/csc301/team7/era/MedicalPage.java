@@ -7,6 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
+import android.util.Log;
 
 public class MedicalPage extends AppCompatActivity {
     @Override
@@ -22,5 +23,10 @@ public class MedicalPage extends AppCompatActivity {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_main, menu); //your file name
         return super.onCreateOptionsMenu(menu);
+    }
+
+    public void gotoBodyLocationPage(View view) {
+        Intent medicalPage = new Intent(this, BodyLocation.class);
+        startActivity(medicalPage);
     }
 }

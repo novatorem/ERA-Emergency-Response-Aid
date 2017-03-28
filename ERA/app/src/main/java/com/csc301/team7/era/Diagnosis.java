@@ -28,11 +28,17 @@ public class Diagnosis {
 
         Properties prop = new Properties();
         InputStream input = null;
-        userName = "spasimir95@gmail.com";
+        userName = "spasimir95@gmail.com";   //these are just for testing
         password = "Gt45MzPb96ReCc27W";
         authUrl = "https://sandbox-authservice.priaid.ch/login";
         healthUrl = "https://sandbox-healthservice.priaid.ch";
         language = "en-gb";
+
+        //userName = "spasimir_vasilev";  these are the real ones
+        //password = "K2F98#nS65tqA-wK";
+        //authUrl = "https://authservice.priaid.ch/login";
+        //healthUrl = "https://healthservice.priaid.ch";
+        //language = "en-gb";
 
         CheckRequiredArgs(userName, password, authUrl, healthUrl, language);
 

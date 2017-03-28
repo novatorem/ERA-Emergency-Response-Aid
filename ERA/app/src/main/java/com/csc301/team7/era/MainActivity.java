@@ -19,6 +19,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
 
 
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnSearch;
     RequestQueue queue;
     Diagnosis aa;
+    HashMap <Integer, String> bp = new HashMap<Integer, String>();
+    HashMap <Integer, String> sbp = new HashMap<Integer, String>();
 
 
 
@@ -39,59 +42,26 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(myToolbar);
         queue = Volley.newRequestQueue(this);
         aa = new Diagnosis(queue);
-        
-
+        bp.put(16, "Abdomen, pelvis and buttocks");
+        bp.put(7, "Arms and shoulder");
+        bp.put(15, "Chest and back");
+        bp.put(6, "Head, throat and neck");
+        bp.put(10, "Legs");
+        bp.put(17, "Skin, joints and general");
+        sbp.put(36,"Abdomen");
+        sbp.put(40,"Buttocks and Rectum");
+        sbp.put(38,"Genitals and Groin");
+        sbp.put(39,"Hips and hip joint");
+        sbp.put(37,"Pelvis");
     }
-
-
-
     public void gotoMedicalPage(View view) {
         Intent medicalPage = new Intent(MainActivity.this, MedicalPage.class);
         startActivity(medicalPage);
     }
 
     public void searchMedical(View view){
-
-        final Intent searchPage = new Intent(MainActivity.this, SearchActivity.class);
-        EditText simpleEditText = (EditText) findViewById(R.id.mSearch);
-        String strValue = simpleEditText.getText().toString();
-        int ff = 0;
-        try{ //this is how you do stuff with the api
-            aa._diagnosisClient.loadFromWebService("body/locations", new TypeReference<List<HealthItem>>() {
-            },new DiagnosisClient.VolleyCallback() {
-                @Override
-                public void onSuccess(String response) {
-                    ObjectMapper objectMapper = new ObjectMapper();
-                    try {
-                        List <HealthItem> resultsObject = objectMapper.readValue(response, new TypeReference<List<HealthItem>>(){});
-                        searchPage.putExtra("TextBox", resultsObject.get(0).Name);
-                        startActivity(searchPage);
-                    }
-                    catch(IOException e){
-                        Log.d("how dare u","aas");
-                    }
-                }
-            });
-        }
-        catch (Exception e){
-
-        }
-        /*
-
-        try{
-            Log.d("yoyoyo","die");
-            ff = aa.loadBodyLocations();
-
-        }catch (Exception e){
-            Log.d("yoyoyo","exceptin");
-        }
-        String value = "" + ff;*/
-
-
-        //Log.i("strValue", strValue);
-        //searchPage.putExtra("TextBox", value);
-       // startActivity(searchPage);
-
+        Intent abc = new Intent(MainActivity.this,BodyLocation.class);
+        startActivity(abc);
     }
 
     @Override

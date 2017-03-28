@@ -17,6 +17,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity" />
+        <activity android:name=".BodyLocation" />
+        <activity android:name=".SubBodyLocation" />
+        <activity android:name=".DiagnosisScreen" />
+        <activity android:name=".MoreIssueInfo" />
+        <activity android:name=".SelectSymptoms" />
         <activity android:name=".MedicalPage" />
         <activity android:name=".SearchActivity" />
         <activity android:name=".RegisterActivity" />

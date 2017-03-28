@@ -34,17 +34,15 @@
         android:voiceSearchMode="showVoiceSearchButton|launchRecognizer" />
     -->
 
-    <EditText
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
         android:id="@+id/mSearch"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginTop="16dp"
-        android:hint="Search Medical Issues"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Search Medical Issues"
         android:onClick="searchMedical"
-        android:inputType="text"
-        android:layout_weight="0.31" />
+        android:background="@android:color/holo_blue_light"/>
 
 
     <Button
@@ -73,8 +71,5 @@
         android:layout_weight="1"
         android:text="Panic Button"
         android:background="@android:color/holo_red_dark"/>
-
-
-
 
 </LinearLayout>
