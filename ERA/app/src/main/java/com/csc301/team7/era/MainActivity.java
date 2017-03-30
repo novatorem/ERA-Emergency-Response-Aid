@@ -59,6 +59,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(medicalPage);
     }
 
+    public void gotoLocationPage(View view) {
+        Intent locationPage = new Intent(MainActivity.this, MapsActivity.class);
+        startActivity(locationPage);
+    }
+
     public void searchMedical(View view){
         Intent abc = new Intent(MainActivity.this,BodyLocation.class);
         startActivity(abc);
