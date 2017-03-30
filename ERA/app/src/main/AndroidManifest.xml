@@ -17,17 +17,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity" />
+        <activity android:name=".IntroActivity" />
         <activity android:name=".MedicalPage" />
         <activity android:name=".SearchActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".WelcomeActivity"></activity>
     </application>
 
 </manifest>
