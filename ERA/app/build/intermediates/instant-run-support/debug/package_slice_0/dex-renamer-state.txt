@@ -1,4 +1,4 @@
-#Tue Mar 28 14:01:08 EDT 2017
-base.0=/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
+#Thu Mar 30 13:03:53 EDT 2017
+base.0=C\:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0
 renamed.0=classes.dex
-file.0=/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex
+file.0=C\:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0\\classes.dex

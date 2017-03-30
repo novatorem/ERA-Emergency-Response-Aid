@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,31 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/Spas/.android/build-cache/a2e8a978e62aa43745c77e079f4f5a7f93fc2162/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "/Users/Spas/.android/build-cache/a2e8a978e62aa43745c77e079f4f5a7f93fc2162/output/res/values/values.xml",
+                    "file": "C:\\Users\\D\\.android\\build-cache\\87971e79d7e136e3d07b789d2be742ea319912ee\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

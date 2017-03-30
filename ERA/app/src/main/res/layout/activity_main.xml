@@ -65,11 +65,12 @@
         android:background="@android:color/holo_blue_light"/>
 
     <Button
+        android:id="@+id/panic_button"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Panic Button"
-        android:background="@android:color/holo_red_dark"/>
+        android:background="@android:color/holo_red_dark"
+        android:text="Panic Button" />
 
 </LinearLayout>

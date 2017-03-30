@@ -1,90 +1,46 @@
 [
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_btn_colored_text_material.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_spinner.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_seek_thumb.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_default.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_switch_track.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_switch_thumb.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_btn_colored_text_material.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_edittext.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\color-v23\\abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_spinner.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/color-v23/design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/color-v23/design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\color-v23\\abc_tint_edittext.xml"
     }
 ]

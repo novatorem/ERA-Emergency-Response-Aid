@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]

@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }
 ]

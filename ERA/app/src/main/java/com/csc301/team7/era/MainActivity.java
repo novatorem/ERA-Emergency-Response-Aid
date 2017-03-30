@@ -1,26 +1,22 @@
 package com.csc301.team7.era;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.Html;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.io.IOException;
 import java.util.HashMap;
-import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -53,6 +49,25 @@ public class MainActivity extends AppCompatActivity {
         sbp.put(38,"Genitals and Groin");
         sbp.put(39,"Hips and hip joint");
         sbp.put(37,"Pelvis");
+
+        //panic button
+        final MediaPlayer mp = MediaPlayer.create(this, R.raw.alert);
+        Button panicButton = (Button) (findViewById(R.id.panic_button));
+        panicButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                mp.start();
+
+                startActivity(new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "987654321", null)));
+
+                Toast myToast = Toast.makeText(getApplicationContext(), "Contacting nearest hospital", Toast.LENGTH_LONG);
+                myToast.show();
+
+            }
+        });
+        //panic button
+
     }
     public void gotoMedicalPage(View view) {
         Intent medicalPage = new Intent(MainActivity.this, MedicalPage.class);

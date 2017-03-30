@@ -1,130 +1,66 @@
 [
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_snackbar_out.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_snackbar_in.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_popup_exit.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_slide_in_bottom.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_fab_in.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_fade_in.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_fade_out.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_snackbar_out.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_slide_in_top.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_slide_in_top.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_fab_in.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_fab_out.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_snackbar_in.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/Users/Spas/.android/build-cache/37f3029ec0cbfcf6b2c2b8887d25ef28587b3fa1/output/res/anim/design_fab_out.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/anim/abc_slide_out_top.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_slide_out_top.xml"
     }
 ]

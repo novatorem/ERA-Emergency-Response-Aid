@@ -1,34 +1,18 @@
 [
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/Spas/.android/build-cache/b795658d70ef2d41ed9403d15deafd5edae9b153/output/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     }
 ]

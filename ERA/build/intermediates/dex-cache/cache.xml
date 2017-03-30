@@ -3,201 +3,102 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/libs/gson-2.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.3.1_fc965176ba86358adc4b5d3c6cf23ddc87e2fe4b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/libs/commons-logging-1.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
-        <dex dex="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-logging-1.2_a8bf503dca96e1a208a8e1fb67d50709da61f668/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/libs/jackson-core-2.7.1.jar"
+        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\jackson-core-2.7.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="4127b62db028f981e81caa248953c0899d720f98">
-        <dex dex="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-core-2.7.1_534fff15223034e4aaea2ab8a44b4fc6ac93ee9f/classes.dex" />
+        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-2.7.1_f82739b373d2dfb37a1c864ac726215151bf5bec\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/libs/sun.misc.BASE64Decoder.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="acd93e3727886196f9b8434279ff445ba8611186">
-        <dex dex="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/sun.misc.BASE64Decoder_79564a97fc38e9989607ecc7d3167b9d7aeab31b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_515fa582d9cf88b62033dc9d29430d04fd020ef7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/libs/commons-logging-1.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
-        <dex dex="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-logging-1.2_220cb38e55986b711ef8d3d075061169519321b0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/libs/jackson-databind-2.7.1-1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="381bac8a9251eea3b6a1e12c77d54dd946ad449d">
-        <dex dex="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-databind-2.7.1-1_7d0acfe1bba61411d6cce8b5a8573208709e50f8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/libs/jackson-annotations-2.7.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8b93f301823b79033fcbe873779b3d84f9730fc1">
-        <dex dex="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-annotations-2.7.1_ab4f3bd0a3d0cf1a2fc2f182a66922f34d3256d6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/libs/sun.misc.BASE64Decoder.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="acd93e3727886196f9b8434279ff445ba8611186">
-        <dex dex="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/sun.misc.BASE64Decoder_7851ae0a15ba472c3090a2569cd8f50fc822a96e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_523fa0229add23fbdcde13f1bbab9daadd58ca08/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/libs/httpcore-4.4.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e876a79d561e5c6207b78d347e198c8c4531a5e5">
-        <dex dex="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.4.3_0b37e3474838e2fc4f97de655e4e83fdf6759c5d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/libs/httpcore-4.4.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e876a79d561e5c6207b78d347e198c8c4531a5e5">
-        <dex dex="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.4.3_5c607107dcd7f208e8f29598a8965eca8f206511/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6d7f18ff643edc21169e6204f3f0fecb9572bfd1">
-        <dex dex="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7477416c0e08c49b3f3335259a23639c5f041ec9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/libs/jackson-annotations-2.7.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8b93f301823b79033fcbe873779b3d84f9730fc1">
-        <dex dex="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-annotations-2.7.1_86f70040ca1b9b44db29666779e1a75cb35797da/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/libs/com.fasterxml.jackson.databind.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="98364cd86063fe995199a1eb8268319d3e5db1f9">
-        <dex dex="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/com.fasterxml.jackson.databind_82a2b35e5220cd40475870d0d32222cf490700bb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/libs/jackson-databind-2.7.1-1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="381bac8a9251eea3b6a1e12c77d54dd946ad449d">
-        <dex dex="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-databind-2.7.1-1_c364d1683f2c0d3b2189cec6abe92ca84a8f6bda/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/libs/jackson-core-2.7.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4127b62db028f981e81caa248953c0899d720f98">
-        <dex dex="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/jackson-core-2.7.1_71f37b506c31cce5877bffd96ef5f725425e23fa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/libs/httpclient-4.5.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7e3cecc566df91338c6c67883b89ddd05a17db43">
-        <dex dex="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.5.1_85b21edc9a1379a3b9a635d29906386536308a73/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/libs/gson-2.3.1.jar"
+        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\gson-2.3.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.3.1_601f6e79ebe134c3c5eeffcb84ce5ad91592f7d5/classes.dex" />
+        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.3.1_7d00eb7f0de04f1bc3785ce234b2854632894fa3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/libs/com.fasterxml.jackson.databind.jar"
+        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\com.fasterxml.jackson.databind.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="98364cd86063fe995199a1eb8268319d3e5db1f9">
-        <dex dex="/Users/Spas/Documents/school/csc301/project/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/com.fasterxml.jackson.databind_85cb8648d6ef54c9d30100084829d6a8ac80d91c/classes.dex" />
+        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\com.fasterxml.jackson.databind_687242b3638a8820facc35548a81c7ba0cd1bb20\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6d705d82a803ff99e6c0b02f82f4af9199cdd91d">
-        <dex dex="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_284ec91e66a40ea1ec186d2642fa5e47e915f8e6/classes.dex" />
+        sha1="8061169ecbd55ed7dbd39ebc20caa36f305a3f6b">
+        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3acd52054c662a1f92c98d0ce3c60455f9295ca4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/libs/httpclient-4.5.1.jar"
+        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\httpclient-4.5.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="7e3cecc566df91338c6c67883b89ddd05a17db43">
-        <dex dex="/Users/Spas/Documents/school/csc301/test/final-project-team-7/ERA/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.5.1_bf2b7d6e0fd972120283425b8b146478a3810e59/classes.dex" />
+        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.5.1_dffc1087c60888e29c6655cb5ba7782db8b2dfef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3efa65f3c7011edb7637a0e04466ea8035a5e0fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\httpcore-4.4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e876a79d561e5c6207b78d347e198c8c4531a5e5">
+        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.4.3_1b30125c50300f1bf3531e7f49235c84563414de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\commons-logging-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-logging-1.2_72fcf6d9bbdde6e187ed0a69219b5e20a4fbf0d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\jackson-databind-2.7.1-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="381bac8a9251eea3b6a1e12c77d54dd946ad449d">
+        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-databind-2.7.1-1_0ec8769dd8ddef595cbacbc82c85b72f7d72af7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\jackson-annotations-2.7.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b93f301823b79033fcbe873779b3d84f9730fc1">
+        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-annotations-2.7.1_27cb3e8861815e9595e408c9587e41e92b7a5dce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\sun.misc.BASE64Decoder.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="acd93e3727886196f9b8434279ff445ba8611186">
+        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\sun.misc.BASE64Decoder_01326325164428eedfb5a02db89d3677a7aab7f1\classes.dex" />
     </item>
 
 </items>
