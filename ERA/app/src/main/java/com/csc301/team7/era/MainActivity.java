@@ -59,9 +59,9 @@ public class MainActivity extends AppCompatActivity {
 
                 mp.start();
 
-                startActivity(new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "987654321", null)));
+                startActivity(new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "+16472233038", null)));
 
-                Toast myToast = Toast.makeText(getApplicationContext(), "Contacting nearest hospital", Toast.LENGTH_LONG);
+                Toast myToast = Toast.makeText(getApplicationContext(), "Press to call nearest hospital", Toast.LENGTH_LONG);
                 myToast.show();
 
             }
