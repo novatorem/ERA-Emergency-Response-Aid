@@ -6,28 +6,28 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490955270031"
+    timestamp="1490955376683"
     token="5250074376474930261"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1179" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="15" />
+        duration="0" />
     <task
         name="verifier"
-        duration="21" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -62,13 +62,13 @@
 
     <build
         build-mode="FULL"
-        timestamp="1490955270031"
+        timestamp="1490955376683"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
