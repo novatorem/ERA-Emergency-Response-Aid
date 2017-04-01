@@ -7,6 +7,8 @@ Abdulla: The user interface, along with the navigation drawer as a package was t
 Spasimir: My most significant contribution was writing the code to connect us to apimedic (the medical api). This allowed us to get symptoms, diagnosis and treatments about diseases.
 
 Muhammad: My most significant contribution was setting up the MySQL database hosted on 000webhost and creating PHP scripts to allow for get requests to be made from the app to to the database for registration and login validation.
+
+Emmanuel: My most significant contribution is the location service implementation which provides a visual of the nearest hospitals to the user.
  
  
 ### Tell us about a new technical concept/issue that you learned while working on the project.
@@ -18,6 +20,8 @@ Abdulla: It seemed as though Android Studio was designed to make things easy, bu
 Spasimir: I learned how to work with Android studio better than ever before. I also learned how to use its volley library to connect to an api and make get and post requests.
  
 Muhammad: I learned about how compartmentalized android development is, i.e java classes need to be connected to the views (xml files) and the view hold components such as strings, dimensions, colors etc that are held in seperate resource files (also xml). 
+
+Emmanuel: I learnt how to work with Android studio, I learnt more about the methods used in mobile development and ulitmately the use of APIs.
  
  
 
@@ -30,6 +34,8 @@ Abdulla: My main strength was debugging and patching issues, mostly caused by my
 Spasimir: My main strength is that I get my tasks done efficiently. 
 
 Muhammad: My main strength is the ability to manage time effectively, I was able to prioritize tasks that were absolute must for the purpose to delivering a working demo in a small time period provide for the project. 
+
+My main strength would be my reliability. I'm new to a lot of concepts and so I had to learn a lot of stuf pretty fast but I made sure to do the whatever it took to deliver what was rerquired to the best of my ability.
  
  
 
@@ -43,6 +49,8 @@ Muhammad: My main strength is the ability to manage time effectively, I was able
  Spasimir: My main weakness is that I didn't do enough research on libraries that are compatible with the newest version of android. Because of this I had to go back and redo a lot of work with new libraries that i didn't know. I will definitely improve so that this does not happen again.
  
  Muhammad: My main weekness is my communication skill, I need to do a better job at communicating my ideas and more importantly my thought process to my team members to support my design and logic decisions when programming or finding solution to problems.
+ 
+ My main weakness would be my inexperience and overthinking which slowed me down in some key areas.
  
  
  
