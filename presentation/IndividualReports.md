@@ -3,9 +3,8 @@
 Dellis: My most significant individual contribution was the panic button. Since it is one of the main features of this project.
 
 Abdulla: The user interface, along with the navigation drawer as a package was the most significant. Allowing them to work with everyone else's code specifically.
- 
 
- 
+Spasimir: My most significant contribution was writing the code to connect us to apimedic (the medical api). This allowed us to get symptoms, diagnosis and treatments about diseases.
  
  
 
@@ -14,6 +13,8 @@ Abdulla: The user interface, along with the navigation drawer as a package was t
  Dellis: I learned that there are multiple types of layouts we can use for Android Studio.
 
 Abdulla: It seemed as though Android Studio was designed to make things easy, but that in turn made it more difficult to implement more complex structures, which sets things in stone after they have been created.
+
+Spasimir: I learned how to work with Android studio better than ever before. I also learned how to use its volley library to connect to an api and make get and post requests.
  
 
  
@@ -26,10 +27,11 @@ Dellis: My main strength as a team member is that I'm flexible and learn things 
  
 Abdulla: My main strength was debugging and patching issues, mostly caused by myself. There was more time spent fixing than introducing features.
 
+Spasimir: My main strength is that I get my tasks done efficiently. 
+
 
  
  
-
 
 ### What is your main weakness(es) as a team member? (i.e. Where do you think you can/should improve?)
 
@@ -37,6 +39,8 @@ Abdulla: My main strength was debugging and patching issues, mostly caused by my
          and overall lack of knowledge about mobile applications. I think I can improve this by self-learning on the internet.
  
  Abdulla: My main weakness was not being proactive in the development stages, where I spent time waiting for everyone else instead of introducing skeleton structures to be implemented in. Next time, in this development environment, I'll build foundations before all the furniture was put in place.
+ 
+ Spasimir: My main weakness is that I didn't do enough research on libraries that are compatible with the newest version of android. Because of this I had to go back and redo a lot of work with new libraries that i didn't know. I will definitely improve so that this does not happen again.
  
  
  
