@@ -35,7 +35,7 @@ Spasimir: My main strength is that I get my tasks done efficiently.
 
 Muhammad: My main strength is the ability to manage time effectively, I was able to prioritize tasks that were absolute must for the purpose to delivering a working demo in a small time period provide for the project. 
 
-My main strength would be my reliability. I'm new to a lot of concepts and so I had to learn a lot of stuf pretty fast but I made sure to do the whatever it took to deliver what was rerquired to the best of my ability.
+Emmanuel: My main strength would be my reliability. I'm new to a lot of concepts and so I had to learn a lot of stuf pretty fast but I made sure to do the whatever it took to deliver what was rerquired to the best of my ability.
  
  
 
@@ -50,7 +50,7 @@ My main strength would be my reliability. I'm new to a lot of concepts and so I 
  
  Muhammad: My main weekness is my communication skill, I need to do a better job at communicating my ideas and more importantly my thought process to my team members to support my design and logic decisions when programming or finding solution to problems.
  
- My main weakness would be my inexperience and overthinking which slowed me down in some key areas.
+ Emmanuel: My main weakness would be my inexperience and overthinking which slowed me down in some key areas.
  
  
  
