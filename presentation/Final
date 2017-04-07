@@ -1,0 +1,109 @@
+Final Project Presentation Marking Rubric
+=========================================
+Team Name: Team 7
+
+Part I - Live Presentation - 30 marks
+-------------------------------------
+Product Demo[10 marks]:
+-Product introduction: 0-1 marks [1=Product introduced, 0=No introduction]
+
+Product introduced
+
+==========
+Your mark: 1
+==========
+-Features Demo: up to 3 marks for each major feature presented 
+
+-Feature 1 presentation: 
+ 0-3 marks [3=Excellent, 2=Adequate, 1=Inadequate, 0=No feature]
+ 
+ ==========
+ Your mark: 3
+ ==========
+ 
+-Feature 2 presentation: 
+ 0-3 marks [3=Excellent, 2=Adequate, 1=Inadequate, 0=No feature]
+ ==========
+ Your mark: 3
+ ==========
+
+-Feature 3 presentation: 
+ 0-3 marks [3=Excellent, 2=Adequate, 1=Inadequate, 0=No feature]
+ ==========
+ Your mark: 3
+ ==========
+
+Notes
+-----
+ -Login/Registration
+ -Registration is extensive
+ -Tutorial
+ -Self Diagnosis 
+ -matching diseases (by percentage)
+ -Map API
+ -Panic button, calls emergency contact number
+ 
+Process[10 marks]:
+-Team Introduction:
+ 0-4 marks 
+ [4=Members are presented professionally, dressed in appropriate attire, body language calm and professional, all members are present]
+ [Each missing element, minus 1 mark]
+ 
+ -Names said and what they did was said
+ 
+ ==========
+ Your mark: 4
+ ==========
+-Team communication, processes, standards, and techniques:
+ 0-6 marks 
+ [Each element 2 marks if presented professionally, 1 mark if presented adequately, 0 otherwise]
+ 
+ -Chatted online on discord and facebook
+ -Used branching
+ -Commented code
+ -Discussed where they are in terms of development during meetings
+ 
+ ==========
+ Your mark: 6
+ ==========
+ 
+Software Architecture[10 marks]:
+-0-4 marks
+  [4=Architecture presented clearly, illustrated with sufficient diagrams, components and responsabilities shown clearly]
+  [-1 mark for each missing component]
+  
+  -Architecture didn't seem to be presented 
+  -No Diagram
+  
+ ==========
+ Your mark: 1
+ ==========  
+Technologies used and technical challenges 
+ -0-6 marks
+  [6=Technologies presented clearly, illustrated with sufficient diagrams/links/examples, technical challenges indicated clearly
+  Also a clear description what the team did to overcome those challenges]
+  [-2 marks for each missing component, -1 mark is component not presented clearly]
+ 
+ -APIMedic
+ -Google Maps API
+ -Async method
+ -PHP
+ -MySQL
+ -Problems with Gradle
+ 
+ ==========
+ Your mark: 6
+ ==========    
+  
+Participation[5 marks]
+ -Team asked at least two meaningful questions to other teams
+ -Q1 (2 marks) 
+ -Q2 (2 marks)
+ -Questions were asked using a professional tone and body language (1 mark)
+ ==========
+ Your mark: 5
+ ========== 
+
+Total Mark: 32/35
+Reflection: 10/10 
+Total: 42/45
