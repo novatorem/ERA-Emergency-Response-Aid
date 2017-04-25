@@ -24,6 +24,7 @@
         <activity android:name=".SelectSymptoms" />
         <activity android:name=".MedicalPage" />
         <activity android:name=".RegisterActivity" />
+        <activity android:name=".IntroActivity"/>
         <activity android:name=".LoginActivity">
 
             <intent-filter>
@@ -32,6 +33,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".WelcomeActivity"></activity>
     </application>
 
 </manifest>

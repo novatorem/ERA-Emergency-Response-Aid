@@ -1,6 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\src\\main\\res\\menu\\menu_main.xml"
     }
 ]

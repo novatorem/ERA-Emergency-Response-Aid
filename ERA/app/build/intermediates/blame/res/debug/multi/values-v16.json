@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "outputFile": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -1,26 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\layout-v11\\notification_template_big_media.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\layout-v11\\notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\layout-v11\\notification_media_action.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\layout-v11\\notification_media_action.xml"
     }
 ]

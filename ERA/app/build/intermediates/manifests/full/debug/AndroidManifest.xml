@@ -34,6 +34,7 @@
         <activity android:name="com.csc301.team7.era.SelectSymptoms" />
         <activity android:name="com.csc301.team7.era.MedicalPage" />
         <activity android:name="com.csc301.team7.era.RegisterActivity" />
+        <activity android:name="com.csc301.team7.era.IntroActivity" />
         <activity android:name="com.csc301.team7.era.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,6 +42,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.csc301.team7.era.WelcomeActivity" />
     </application>
 
 </manifest>

@@ -1,66 +1,66 @@
 [
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\9c59c6d1e8176e267b63f8a09b02059afc15f724\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\9c59c6d1e8176e267b63f8a09b02059afc15f724\\output\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\9c59c6d1e8176e267b63f8a09b02059afc15f724\\output\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_fab_in.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\9c59c6d1e8176e267b63f8a09b02059afc15f724\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\9c59c6d1e8176e267b63f8a09b02059afc15f724\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\ac1156eadddaeb1e0da3453b98c1905378c5c7ae\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\fac6c2f8477895a1856fd90e8d696861961355a2\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\9c59c6d1e8176e267b63f8a09b02059afc15f724\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     }
 ]

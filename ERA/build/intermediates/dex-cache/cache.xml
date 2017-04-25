@@ -3,102 +3,84 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\jackson-core-2.7.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4127b62db028f981e81caa248953c0899d720f98">
-        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-2.7.1_f82739b373d2dfb37a1c864ac726215151bf5bec\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\gson-2.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.3.1_7d00eb7f0de04f1bc3785ce234b2854632894fa3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\com.fasterxml.jackson.databind.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="98364cd86063fe995199a1eb8268319d3e5db1f9">
-        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\com.fasterxml.jackson.databind_687242b3638a8820facc35548a81c7ba0cd1bb20\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8061169ecbd55ed7dbd39ebc20caa36f305a3f6b">
-        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3acd52054c662a1f92c98d0ce3c60455f9295ca4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\httpclient-4.5.1.jar"
-        jumboMode="true"
+        jar="C:\Users\leet-\Documents\301\ERA Final\app\libs\httpclient-4.5.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="7e3cecc566df91338c6c67883b89ddd05a17db43">
-        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.5.1_dffc1087c60888e29c6655cb5ba7782db8b2dfef\classes.dex" />
+        <dex dex="C:\Users\leet-\Documents\301\ERA Final\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.5.1_3a16c0a096f04538eafd8d0733a0c2be8ee40a9c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3efa65f3c7011edb7637a0e04466ea8035a5e0fa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\httpcore-4.4.3.jar"
-        jumboMode="true"
+        jar="C:\Users\leet-\Documents\301\ERA Final\app\libs\httpcore-4.4.3.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="e876a79d561e5c6207b78d347e198c8c4531a5e5">
-        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.4.3_1b30125c50300f1bf3531e7f49235c84563414de\classes.dex" />
+        <dex dex="C:\Users\leet-\Documents\301\ERA Final\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.4.3_2ce334b0159008e4edd0a6e542392d8f4277570a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\commons-logging-1.2.jar"
-        jumboMode="true"
+        jar="C:\Users\leet-\Documents\301\ERA Final\app\libs\jackson-core-2.7.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
-        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-logging-1.2_72fcf6d9bbdde6e187ed0a69219b5e20a4fbf0d6\classes.dex" />
+        sha1="4127b62db028f981e81caa248953c0899d720f98">
+        <dex dex="C:\Users\leet-\Documents\301\ERA Final\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-2.7.1_f80bbd78413a85d66500daccad75fcbfce6d097d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\jackson-databind-2.7.1-1.jar"
-        jumboMode="true"
+        jar="C:\Users\leet-\Documents\301\ERA Final\app\libs\gson-2.3.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="381bac8a9251eea3b6a1e12c77d54dd946ad449d">
-        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-databind-2.7.1-1_0ec8769dd8ddef595cbacbc82c85b72f7d72af7f\classes.dex" />
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\leet-\Documents\301\ERA Final\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.3.1_548bb2e2c75abeb77055d8ca928c1058802eaa29\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\jackson-annotations-2.7.1.jar"
-        jumboMode="true"
+        jar="C:\Users\leet-\Documents\301\ERA Final\app\libs\jackson-annotations-2.7.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="8b93f301823b79033fcbe873779b3d84f9730fc1">
-        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-annotations-2.7.1_27cb3e8861815e9595e408c9587e41e92b7a5dce\classes.dex" />
+        <dex dex="C:\Users\leet-\Documents\301\ERA Final\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-annotations-2.7.1_f2b0e4f80023ccd0e57c22e911706323943fe8da\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\libs\sun.misc.BASE64Decoder.jar"
-        jumboMode="true"
+        jar="C:\Users\leet-\Documents\301\ERA Final\app\libs\commons-logging-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="C:\Users\leet-\Documents\301\ERA Final\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-logging-1.2_eacb7203a1cdc1dc25ce204cea8b7f853db8aae8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\leet-\Documents\301\ERA Final\app\libs\com.fasterxml.jackson.databind.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98364cd86063fe995199a1eb8268319d3e5db1f9">
+        <dex dex="C:\Users\leet-\Documents\301\ERA Final\app\build\intermediates\transforms\dex\debug\folders\1000\2\com.fasterxml.jackson.databind_b28aadefef51fec4e412ba35a1852edb6b2a8660\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\leet-\Documents\301\ERA Final\app\libs\sun.misc.BASE64Decoder.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="acd93e3727886196f9b8434279ff445ba8611186">
-        <dex dex="C:\Users\D\Documents\GitHub\final-project-team-7\ERA\app\build\intermediates\transforms\dex\debug\folders\1000\2\sun.misc.BASE64Decoder_01326325164428eedfb5a02db89d3677a7aab7f1\classes.dex" />
+        <dex dex="C:\Users\leet-\Documents\301\ERA Final\app\build\intermediates\transforms\dex\debug\folders\1000\2\sun.misc.BASE64Decoder_20effc905b73ff36086ac296eb28e6858a140281\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\leet-\Documents\301\ERA Final\app\libs\jackson-databind-2.7.1-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="381bac8a9251eea3b6a1e12c77d54dd946ad449d">
+        <dex dex="C:\Users\leet-\Documents\301\ERA Final\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-databind-2.7.1-1_58fd335db4efe5e34df2e78f749ea367e66da807\classes.dex" />
     </item>
 
 </items>

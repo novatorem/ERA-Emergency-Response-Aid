@@ -1,10 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\key.xml",
+        "source": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\key.xml"
     },
     {
-        "merged": "C:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "C:\\Users\\D\\.android\\build-cache\\b394cb1fef40db19f802d3b8baa51695d055d654\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\9c59c6d1e8176e267b63f8a09b02059afc15f724\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\map_marker.xml",
+        "source": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\map_marker.xml"
+    },
+    {
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\leet-\\.android\\build-cache\\9c59c6d1e8176e267b63f8a09b02059afc15f724\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\magnify.xml",
+        "source": "C:\\Users\\leet-\\Documents\\301\\ERA Final\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\magnify.xml"
     }
 ]

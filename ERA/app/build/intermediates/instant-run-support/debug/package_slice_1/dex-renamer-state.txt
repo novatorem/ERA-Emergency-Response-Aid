@@ -1,4 +1,0 @@
-#Tue Mar 28 23:25:18 EDT 2017
-base.0=C\:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
-renamed.0=classes.dex
-file.0=C\:\\Users\\D\\Documents\\GitHub\\final-project-team-7\\ERA\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex

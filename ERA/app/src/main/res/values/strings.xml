@@ -6,6 +6,11 @@
     <string name="action_device_support">Supported Devices</string>
     <string name="title_activity_login">Sign in</string>
 
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
@@ -21,5 +26,26 @@
     <string name="search_hint">Search</string>
 
 
+    <!-- Strings related to the intro slider -->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome to ERA!</string>
+    <string name="slide_1_desc">The most convenient way to find diagnosis based on symptoms!</string>
+
+    <string name="slide_2_title">ERA Registration</string>
+    <string name="slide_2_desc">Create an account by registering to customize the app!</string>
+
+    <string name="slide_3_title">Search Symptoms</string>
+    <string name="slide_3_desc">Get diagnosis based on symptoms with accuracy report!</string>
+
+    <string name="slide_4_title">Location Services</string>
+    <string name="slide_4_desc">Utilize location services to find closet medical facilities!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 </resources>
+
 
