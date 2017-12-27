@@ -5,6 +5,9 @@
 Team application designed as a mediatery to help users self diagnose themselves or seek medical attention
 </p>
 
+<p align="center">
+  <img src="http://i.imgur.com/Qx1Qnu5.png">
+</p>
 
 | Member  | Role |
 | ------------- | ------------- 
@@ -13,13 +16,6 @@ Team application designed as a mediatery to help users self diagnose themselves 
 | Aun Sheikh  | System Architecture  |
 | Spasimir | API Integration |
 | Teddy | Tracking and Locality |
-
-
-
-<p align="center">
-  <img src="http://i.imgur.com/Qx1Qnu5.png">
-</p>
-
 
 #### Tools, Techniques, Conventions, that worked
 
