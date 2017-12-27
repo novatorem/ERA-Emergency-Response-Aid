@@ -1,20 +1,22 @@
 # ERA: Emergency Response Aid
+<p align="center">
+Team application designed as a mediatery to help users self diagnose themselves or seek medical attention
+</p>
 
-Team application designed as a mediatery to help users self diagnose themselves.
-
-Created by a team of 5 members in the University of Toronto campus.
 
 | Member  | Role |
 | ------------- | ------------- 
-| Abdulla Bin Haji  | Leader, Front End  |
+| Abdulla Bin Haji  | Front End  |
+| Dellis Ng | Real-time Engineer |
 | Aun Sheikh  | System Architecture  |
 | Spasimir | API Integration |
-| Dellis Ng | Panic Button |
-| Teddy | Local Integration |
+| Teddy | Tracking and Locality |
 
 
 
-![Alt text](http://i.imgur.com/Qx1Qnu5.png "tutorial slides")
+<p align="center">
+  <img src="http://i.imgur.com/Qx1Qnu5.png">
+</p>
 
 
 ### Tools, Techniques, Conventions, that worked
