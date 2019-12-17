@@ -11,8 +11,8 @@ Team application designed as a mediatery to help users self diagnose themselves 
 
 | Member  | Role |
 | ------------- | ------------- 
-| Abdulla Bin Haji  | Front End  |
-| Dellis Ng | Real-time Engineer |
+| Andrew Novac  | Backend integration |
+| Dellis Ng | Front End |
 | Aun Sheikh  | System Architecture  |
 | Spasimir | API Integration |
 | Teddy | Tracking and Locality |
